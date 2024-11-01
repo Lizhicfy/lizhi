@@ -13,10 +13,18 @@
       
       <categories>
           
-          <category> C学习 </category>
+          <category> C#学习 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
       
     </entry>
     
