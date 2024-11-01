@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>C#语法的学习</title>
+      <link href="/2024/10/30/DADD/"/>
+      <url>/2024/10/30/DADD/</url>
+      
+        <content type="html"><![CDATA[<h2 id="我的代码"><a href="#我的代码" class="headerlink" title="我的代码"></a>我的代码</h2><p>1.pow是double类型</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var x = Math.Pow(3, 5);</span><br><span class="line">Console.WriteLine(x.GetType().Name);</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>2.忘记了</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">List&lt;int&gt; intList = new List&lt;int&gt;() &#123;1,2,3&#125;;</span><br><span class="line"> double[] doubleArray = new double[] &#123;1.0,2.0,3.0&#125;;</span><br><span class="line"> var x = doubleArray[1];</span><br><span class="line"> Console.WriteLine(x.GetType());</span><br></pre></td></tr></table></figure><pre><code></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> C学习 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
