@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>记一次讯飞语记的破解方式</title>
+      <link href="/2024/11/09/xunfei/"/>
+      <url>/2024/11/09/xunfei/</url>
+      
+        <content type="html"><![CDATA[<h2 id="讯飞语记"><a href="#讯飞语记" class="headerlink" title="讯飞语记"></a>讯飞语记</h2><p>首先打开MT，选择讯飞语记的安装包，用mt给他过一下签名</p><p><img src="https://s2.loli.net/2024/11/09/xrkZswNHhfuXqaW.jpg" alt="qiuqian.jpg"></p><p>然后进全选dex，点常量，过滤vip</p><p><img src="https://s2.loli.net/2024/11/09/QehdZ68kmPgwRTi.jpg" alt="changliuang.jpg"></p><p>选SVIP使用次数剩余</p><p><img src="https://s2.loli.net/2024/11/09/K1G7jPVoyNg8FaL.jpg" alt="SVIP.jpg"></p><p>搜索，进入AiNotOperateview这个类</p><p><img src="https://s2.loli.net/2024/11/09/tf7VZ3sCexpIrSA.jpg" alt="jinru.jpg"></p><p>往上看到invoke-static{}，Ln13;-&gt;d()I，直接跳转</p><p><img src="https://s2.loli.net/2024/11/09/H7xOpBirGDZNLyl.jpg" alt="tiaozhuand.jpg"></p><p>进去发现getLevel，这里是判断会员等级的地方，接着跳转</p><p><img src="https://s2.loli.net/2024/11/09/8AtbdomwyhFTL21.jpg" alt="tiaozhuanleve.jpg"></p><p>这软件有vip和svip的等级，那直接给他赋值3</p><p><img src="https://s2.loli.net/2024/11/09/IEHpRnYTsxKZetu.jpg" alt="fuzhi.jpg"></p><p>保存进入软件，OK成功</p><p><img src="https://s2.loli.net/2024/11/09/K3BaCI9sOpkoySR.jpg" alt="jieguo.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 逆向学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 安卓逆向 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C#语法的学习</title>
       <link href="/2024/10/30/DADD/"/>
       <url>/2024/10/30/DADD/</url>
